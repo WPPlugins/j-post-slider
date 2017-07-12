@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+#s3slider {
+   position: relative; /* important */
+   overflow: hidden; /* important */
+}
+
+#s3sliderContent {
+   position: absolute; /* important */
+   top: 0; /* important */
+   margin-left: 0; /* important */
+}
+
+.s3sliderImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+}
+
+.s3sliderImage span {
+   position: absolute; /* important */
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 10px 13px;
+   background-color: #000;
+   color: #fff;
+   display: none; /* important */
+}
+
+.s3sliderImage span.left {
+	left:0;
+	top:0;
+}
+.s3sliderImage span.right {
+	bottom:0;
+	right:0;
+}
+.s3sliderImage span.top {
+	left:0;
+	top:0;
+}
+.s3sliderImage span.bottom{
+	left:0;
+	bottom:0;	
+}
+
+.clear {
+   clear: both;
+}
